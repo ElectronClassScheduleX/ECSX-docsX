@@ -1,2 +1,4 @@
-@import './theme.css';
-@import './splash.css';
+@import './tokens.css';
+@import './shell.css';
+@import './content.css';
+@import './home.css';

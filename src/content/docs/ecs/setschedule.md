@@ -15,22 +15,17 @@ description: 按步骤编辑 scheduleConfig 完成课表配置。
 
 确保电脑中安装了一个及以上的 Code 编辑器。
 
-如果没有，请点击[下载](https://vscode.download.prss.microsoft.com/dbazure/download/stable/6f17636121051a53c88d3e605c491d22af2ba755/VSCodeUserSetup-x64-1.103.2.exe)。
-
-安装教程请自行百度搜索 VSCode 安装教程。
+如果没有，请自行访问 [VSCode官网](https://code.visualstudio.com/Download) 下载
 
 ## Step 2. 开始编辑
 
-返回桌面，这时应该会出现一个 **电子课表** 软件图标，如果没有，请上报问题给 <a href="mailto:xrh3248486103@vip.qq.com">Enigfrank</a>。
+返回桌面，这时应该会出现一个 **电子课表** 软件图标，如果没有，请上报问题给 <a href="mailto:enigfrank@top">Enigfrank</a>。
 
-打开你选择的安装文件夹，按照此顺序进入文件夹：
+在右下角任务栏找到 **软件图标** 点击打开
 
-- `electron_class_schedule`
-- `resources`
-- `app.asar.unpacked`
-- `js`
+点击 **编辑课表**图标 这时应该会打开一个文件夹
 
-找到 **scheduleConfig** 文件（如果你安装了前文提到的 Code 编辑器），右键选择使用 VSCode 打开。
+找到 **scheduleConfig.js** 文件（如果你安装了前文提到的 Code 编辑器），右键选择使用 VSCode 打开。
 
 文档中各个配置已使用详细注释解释，请耐心、仔细阅读过后再进行配置。
 

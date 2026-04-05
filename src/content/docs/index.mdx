@@ -1,10 +1,10 @@
 ---
-title: ECSX帮助文档
+title: ElectronClassScheduleX
 description: ECSX 软件使用教程与常见问题.
 template: splash
 hero:
   title: ECSX 文档中心
-  tagline: 面向教师与学生的使用指南 帮助快速上手并稳定使用
+  tagline: 为教师与学生提供部署及配置指南.
   actions:
     - text: 开始阅读
       link: /ecs/quickstart/
@@ -12,28 +12,25 @@ hero:
     - text: GitHub
       link: https://github.com/Enigfrank/ElectronClassScheduleX
       icon: external
-      variant: minimal
+      variant: secondary
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
 ## 快速导航
 
-<CardGrid>
-  <Card title="快速入门" icon="rocket">从下载安装到首次启动, 按步骤完成最短配置路径.</Card>
-  <Card title="课表配置教程" icon="setting">学习如何导入、编辑、切换课表, 并建立更高效的排课流程.</Card>
-  <Card title="功能介绍" icon="open-book">了解 ECSX 常用能力与使用场景, 快速定位你需要的功能.</Card>
-  <Card title="软件更新" icon="star">查看版本变化与更新说明, 及时掌握新特性和修复项.</Card>
-</CardGrid>
+<div class="home-quick-grid">
+  <a class="quick-link-card" href="/ecs/quickstart/">
+    <strong>安装步骤</strong>
+    <span>按照最短路径完成安装, 并确认软件可稳定运行。</span>
+  </a>
+  <a class="quick-link-card" href="/ecs/setschedule/">
+    <strong>快速配置课表</strong>
+    <span>完成导入、编辑与切换, 建立日常排课流程。</span>
+  </a>
+  <a class="quick-link-card" href="/ecs/functionintroduction/">
+    <strong>按场景查功能</strong>
+    <span>按需定位核心能力, 提升教学与学习效率。</span>
+  </a>
+</div>
 
-## 使用说明
-
-- 建议先阅读 [快速入门](/ecs/quickstart/) 完成安装.
-- 完成安装后按顺序阅读 [课表配置教程](/ecs/setschedule/) 与 [功能介绍](/ecs/functionintroduction/).
-- 版本更新信息请查看 [软件更新](/ecs/update/).
-
-## 学习路径建议
-
-1. **10 分钟启动**：完成安装并确认软件可以正常打开.
-2. **30 分钟配置**：按教程配置课表与基础参数, 形成可用环境.
-3. **按需深入**：根据实际需求重点阅读功能介绍与更新说明.

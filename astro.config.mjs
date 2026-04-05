@@ -8,7 +8,7 @@ import vercel from '@astrojs/vercel';
 export default defineConfig({
   integrations: [
       starlight({
-          title: 'ECSX 帮助文档',
+          title: 'ElectronClassScheduleX',
           customCss: ['./src/styles/custom.css'],
           social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/Enigfrank/ElectronClassScheduleX' }],
           sidebar: [

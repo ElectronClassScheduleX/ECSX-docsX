@@ -1,0 +1,96 @@
+.sl-markdown-content {
+  color: var(--sl-color-text);
+}
+
+.sl-markdown-content h2,
+.sl-markdown-content h3 {
+  letter-spacing: -0.01em;
+  font-weight: 760;
+}
+
+.sl-markdown-content h2 {
+  margin-top: 2.4rem;
+  padding-inline-start: 0.85rem;
+  border-inline-start: 0.3rem solid var(--sl-color-accent);
+}
+
+.sl-markdown-content h2 .anchor,
+.sl-markdown-content h3 .anchor {
+  color: color-mix(in srgb, var(--sl-color-accent) 72%, var(--sl-color-text));
+}
+
+.sl-markdown-content p,
+.sl-markdown-content li {
+  line-height: 1.9;
+}
+
+.sl-markdown-content ul,
+.sl-markdown-content ol {
+  padding-inline-start: 1.2rem;
+}
+
+.sl-markdown-content :is(pre, table, blockquote) {
+  border-radius: var(--ui-radius-md);
+}
+
+.sl-markdown-content blockquote {
+  border-inline-start-width: 0.28rem;
+  background: color-mix(in srgb, var(--sl-color-accent-low) 52%, transparent);
+}
+
+.sl-markdown-content code {
+  border-radius: 0.4rem;
+  padding: 0.12rem 0.4rem;
+  border: 1px solid color-mix(in srgb, var(--sl-color-accent) 24%, var(--sl-color-hairline));
+}
+
+.sl-markdown-content table {
+  overflow: hidden;
+  border: var(--ui-card-border);
+  background: var(--ui-panel-bg-strong);
+}
+
+.sl-markdown-content table th {
+  background: color-mix(in srgb, var(--sl-color-accent-low) 62%, transparent);
+}
+
+.sl-markdown-content hr {
+  border-color: var(--sl-color-hairline);
+}
+
+.sl-markdown-content a {
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.2em;
+}
+
+.card-grid {
+  gap: 1rem;
+}
+
+.card {
+  border: var(--ui-card-border);
+  border-radius: var(--ui-radius-md);
+  background: var(--ui-panel-bg-strong);
+  box-shadow: var(--ui-card-shadow);
+  transition: transform var(--ui-transition-base), border-color var(--ui-transition-base), box-shadow var(--ui-transition-base);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: color-mix(in srgb, var(--sl-color-accent) 46%, var(--sl-color-hairline));
+  box-shadow: var(--ui-card-shadow-hover);
+}
+
+.card h3 {
+  font-weight: 730;
+}
+
+.card p {
+  color: color-mix(in srgb, var(--sl-color-text) 90%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: none;
+  }
+}

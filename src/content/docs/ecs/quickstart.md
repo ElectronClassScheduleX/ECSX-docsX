@@ -1,11 +1,9 @@
 ---
 title: 快速开始
-description: ECS_X 安装与启动的基础流程。
+description: ECSX 安装与启动的基础流程。
 ---
 
-ECS_X 不提供技术支持（仅接受 issue 上报），同时请勿到原版 ECS 寻求帮助。
-
-很长一段时间软件都是从这 [下载1（移动云盘 | 需登录）](https://caiyun.139.com/w/i/2qidXp6hhs7i0) 提取码：cef2 [下载2（Enigfrank 云盘 | 无需登录）](https://alist.ecso.top/@s/Ps8dyGY1)
+请从 [项目Release](https://github.com/Enigfrank/ElectronClassScheduleX/releases) 中下载
 
 ## Step 1. 开始安装
 
@@ -25,10 +23,5 @@ ECS_X 不提供技术支持（仅接受 issue 上报），同时请勿到原版 
 
 点击安装。
 
-![图片](/image/3.png)
 
-请把图中箭头指出的复选框取消，使 ✅ 变成 ⬛️。
-
-点击完成。
-
-至此，安装流程结束，请点击下方 **课表配置教程**。
+至此，ECSX已安装在系统中，请点击下方 **课表配置教程**。
